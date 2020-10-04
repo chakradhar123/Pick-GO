@@ -11,9 +11,9 @@ console.log(icon)
 nav.classList.toggle('nav-active');
 nav.classList.toggle('nav-show');
 header.classList.toggle('bg-black')
-console.log(nav)
+
 }
-console.log(burger)
+
 burger.addEventListener('click', function() {
 toggleNav();
 console.log('clicked')

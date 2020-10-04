@@ -85,10 +85,10 @@ html,body{
 }
 @font-face {
     font-family: 'Baloo-Da';
-      src:  url('Baloo-Da.ttf.woff') format('woff'),
-      url('Baloo-Da.ttf.svg#Baloo-Da') format('svg'),
-      url('Baloo-Da.ttf.eot'),
-      url('Baloo-Da.eot?#iefix') format('embedded-opentype'); 
+      src:  url('../fonts/Baloo-Da.ttf.woff') format('woff'),
+      url('../fonts/Baloo-Da.ttf.svg#Baloo-Da') format('svg'),
+      url('../fonts/Baloo-Da.ttf.eot'),
+      url('../fonts/Baloo-Da.eot?#iefix') format('embedded-opentype'); 
       font-weight: normal;
       font-style: normal;
   }
@@ -232,6 +232,10 @@ bottom: 0;
     font-size: 20px;
     margin:20px 0;
     cursor: text;
+}
+.form input:hover{
+transform: scale(1.05);
+transition-duration: 0.3s;
 }
 button{
     font-family: 'Baloo-Da'; 
